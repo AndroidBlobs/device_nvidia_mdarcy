@@ -1,0 +1,13 @@
+#
+# from device/nvidia/platform/t210/system.prop
+#
+# disable input resampling
+ro.input.noresample=1
+
+persist.vendor.sys.NV_ECO.IF.CHARGING=false
+ro.af.client_heap_size_kbyte=10240
+
+# bluetooth: delay atv remote service gatt connection
+atvremote.bleaudio_connectgatt_delay_ms = 2500
+
+#
